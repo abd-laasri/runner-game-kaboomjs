@@ -91,7 +91,6 @@ scene("game",()=>{
 
 		onKeyPress("space",()=>go("game"));
 	})
-	k.onClick(() => k.addKaboom(k.mousePos()))
 })
 
 go("game");
